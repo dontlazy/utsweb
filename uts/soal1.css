@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #04002595;
+    color: #333;
+}
+
+header {
+    background-color: #ac139785;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.biodata {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+    text-align: justify;
+    color: white;
+}
+
+.biodata-img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.skills-section {
+    text-align: center;
+    margin: 20px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ac139785;
+    color: white;
+}
+
+/* Navigasi */
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ac139785;
+    color: white;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #ac139785;
+}
+
+#kontak {
+    text-align: center;
+    margin: 20px;
+}
+
+#kontak h2 {
+    color: #ac139785;
+}
+
+/* Media Queries untuk responsif */
+@media (max-width: 768px) {
+    .biodata {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .biodata-img {
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 80px;
+        height: 80px;
+    }
+
+    table {
+        width: 80%;
+    }
+
+    .skills-section {
+        margin: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
